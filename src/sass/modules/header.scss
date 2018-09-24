@@ -1,0 +1,28 @@
+.header {
+    border-bottom: 1px solid black;
+
+    &__mosaic {
+        font-family: $logo-font-family;
+        font-size: 2.5rem;
+        letter-spacing: 0.65rem;
+        margin: 1rem 0 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .navigation {
+        &__list {
+            margin: 1rem 0;
+            padding: 0;
+            text-align: center;
+
+            li {
+                display: inline-block;
+                list-style-type: none;
+
+                &:not(:first-child) {
+                    margin-left: 2rem;
+                }
+            }
+        }
+    }
+}
