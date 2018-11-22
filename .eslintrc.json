@@ -1,5 +1,5 @@
 {
-    "extends": "eslint-config-hss",
+    "extends": "eslint-config-mosaic",
     "env": {
         "browser": true,
         "es6": true,
