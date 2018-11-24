@@ -11,6 +11,7 @@ export const SOURCE = {
     JAVASCRIPT: 'src/js/index.js',
     SASS: 'src/sass/base.scss',
     STATIC: [
+        'src/**/*.gif',
         'src/**/*.ico',
         'src/**/*.jpg',
         'src/**/*.png',
