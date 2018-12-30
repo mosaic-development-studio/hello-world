@@ -42,3 +42,10 @@ h3 {
     font-size: 32px;
     line-height: 40px;
 }
+
+@media (max-width: 860px) {
+    h2 {
+        font-size: 80px;
+        max-width: 100%;
+    }
+}

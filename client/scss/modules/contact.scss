@@ -1,4 +1,13 @@
 .contact {
+    &__logo-wrapper {
+        margin-left: 2%;
+    }
+    &__logo {
+        margin: 25px 10px 5px 0;
+        transform: rotate(315deg);
+        width: 80px;
+    }
+
     dd {
         margin: 10px 0 0;
 
@@ -15,7 +24,18 @@
         }
     }
     dt {
-        color: #757575;
+        color: $grey;
+        font-size: 12px;
         margin-top: 40px;
+    }
+}
+
+@media (max-width: 860px) {
+    .contact {
+        &__logo {
+            display: block;
+            margin: 0 auto 100px;
+            width: 30px;
+        }
     }
 }
