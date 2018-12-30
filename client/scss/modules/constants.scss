@@ -4,9 +4,17 @@ $transition: all 0.3s ease-in-out;
 // Colors
 // Color names
 $black-pearl: #111;
+$grey: #757575;
 
 // Color uses
 $body-font-color: $black-pearl;
 
 // Fonts
-$font-stack: 'Heebo', Arial, Helvetica, sans-serif;
+// $font-stack: 'Heebo', Arial, Helvetica, sans-serif;
+$font-stack-monospace: 'Space Mono', Arial, Helvetica, sans-serif;
+$font-stack: 'Ubuntu', Arial, Helvetica, sans-serif;
+
+// Weight
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
