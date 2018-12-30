@@ -11,8 +11,10 @@ $body-font-color: $black-pearl;
 
 // Fonts
 // $font-stack: 'Heebo', Arial, Helvetica, sans-serif;
-$font-stack: 'Space Mono', Arial, Helvetica, sans-serif;
+$font-stack-monospace: 'Space Mono', Arial, Helvetica, sans-serif;
+$font-stack: 'Ubuntu', Arial, Helvetica, sans-serif;
 
 // Weight
+$font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
