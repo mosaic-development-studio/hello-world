@@ -58,7 +58,9 @@
 
 @media (max-width: 860px) {
     .navigation {
-        padding-top: 15px;
+        background-color: #fff;
+        padding: 15px 0 25px;
+        z-index: 2;
 
         &__list,
         &__name {
