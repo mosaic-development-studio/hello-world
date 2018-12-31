@@ -1,0 +1,16 @@
+.works {
+    margin-top: 200px;
+
+    &__header {
+        font-family: $font-stack-monospace;
+        font-size: 14px;
+        margin-top: 75px;
+        text-align: center;
+    }
+    &__vertical-spacer {
+        border-left: 1px solid $body-font-color;
+        border-top: none;
+        display: block;
+        height: 200px;
+    }
+}

@@ -1,6 +1,27 @@
 .hero {
+    position: relative;
+
+    &__hero-images {
+        position: absolute;
+        left: 0;
+        bottom: -58vh;
+        width: 100%;
+
+        img {
+            filter: grayscale(100%);
+            opacity: 0.5;
+        }
+    }
+    &__hero-image-container:nth-child(2) {
+        margin-top: 10vh;
+    }
+    &__hero-image-container:nth-child(3) {
+        margin-top: -20vh;
+    }
     &__text {
         font-size: 140px;
+        font-weight: $font-weight-light;
+        z-index: 100;
     }
 }
 
